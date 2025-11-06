@@ -149,11 +149,10 @@ body.header-hidden{
 .hero {
   position: relative;
   background: url('../../imagens/Logos/home-22.png') center top no-repeat;
-  background-size: 80%;             /* deixa sobrar bordas */
-  background-position: center -30px; /* sobe um pouco a imagem */
-  background-color: #ffffff;
+  background-size: 90%;             /* deixa sobrar bordas */
   
   height: 1500px;
+  margin-bottom: 0;
   margin-top: -60px;                /* sobrepõe levemente a subnav */
   border-radius: 40px;     /* bordas arredondadas inferiores */
   overflow: hidden;
@@ -168,7 +167,6 @@ body.header-hidden{
 .hero-overlay {
   position: absolute;
   inset: 0;
-  
   border-radius: 0 0 40px 40px;
 }
 
@@ -194,7 +192,7 @@ body.header-hidden{
   position: relative;
   color: #fff;
   padding: 64px 0 56px;
-  margin-top: 40px;
+  margin-top: 100px;
   background:
     radial-gradient(1200px 400px at 10% -20%, rgba(255,255,255,.22), rgba(255,255,255,0) 60%),
     radial-gradient(800px 300px at 90% 0%, rgba(255,255,255,.18), rgba(255,255,255,0) 60%),
@@ -204,7 +202,7 @@ body.header-hidden{
   overflow: hidden;
   isolation: isolate;
 }
-.como-funciona::before,
+
 .como-funciona::after{
   content:"";
   position:absolute;
